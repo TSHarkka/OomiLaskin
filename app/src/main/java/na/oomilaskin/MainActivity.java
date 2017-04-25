@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         menuList = (ListView) findViewById(R.id.menuList);
 
         String[] val_arvot = new String[] {
-                "Resistanssin laskeminen","Jännitteen laskeminen","Virran laskeminen" , "Lopeta sovellus"
+                "Resistanssin laskeminen","Jännitteen laskeminen","Virran laskeminen" , "testi", "Lopeta sovellus"
         };
 
         ArrayAdapter<String> oma_adapteri = new ArrayAdapter<>
@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(akt);
                 } else if (kom_paikka == 2) {
                     akt = new Intent(MainActivity.this, calc_cur.class);
+                    startActivity(akt);
+                } else if (kom_paikka == 3) {
+                    akt = new Intent(MainActivity.this, Main2Activity.class);
                     startActivity(akt);
                 } else {
                     Intent intent = new Intent();

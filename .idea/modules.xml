@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OomiLaskin.iml" filepath="$PROJECT_DIR$/OomiLaskin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OomiLaskinGIT.iml" filepath="$PROJECT_DIR$/OomiLaskinGIT.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
